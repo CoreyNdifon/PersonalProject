@@ -40,7 +40,7 @@ The spreadsheet has many variables that are ambiguous to those who aren't partic
 - `A`: Asian
 - `H`: Hispanic
 - `O`: Other
-- 'None': Unknown
+- `None`: Unknown
 
 `CITY`: The city of origin where the police shooting occured.
 
