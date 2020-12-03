@@ -12,7 +12,7 @@ I feel it is my duty to take on this project from a ethical perspective and atti
 The data I am using was collected from an ongoing database controlled by the Washington Post, who have an ongoing spreadsheet of police shootings throughout all of the United States starting from 2015 to present day. 
 ## Processing Steps
 Due to the amount of police shootings throughout America being exponentially high, I have chosen 
-to focus only on Washington State from 2015 - present. The process in cleaning this data was simple, mainly due to the Washington Post doing such a great job in keeping their dataset organized for all these years. Having the dataset already configured in a .csv, all I had to do was filter the state table in the spreadsheet to WA (for Washington) and copy and past the respective rows. 
+to focus only on Washington State from 2015 - present. The process in cleaning this data was simple, mainly due to the Washington Post doing such a great job in keeping their dataset organized for all these years. Having the dataset already configured in a .csv, all I had to do was filter the state table in the spreadsheet to WA (for Washington) and copy and past the respective rows. Upon filtering the data, I noticed there were few rows that had a few missing columns. Because these rows were few, I felt comfortable deleting those entire rows in order to get more complete data. Since race is a major issue in my motivation for this project, I make sure the rows I am deleted had good diversity in race to ensure no bias would occur. 
 ## About The Data
 The spreadsheet has many variables that are ambiguous to those who aren't particularly familiar with the data or subject itself. This section is to help the reader understand the spreadsheet better.
 
