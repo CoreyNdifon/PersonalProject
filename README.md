@@ -2,7 +2,7 @@
 Welcome to my personal dataset project. For my project I am focusing on the question:
 Who is most affected by police shootings. My motivation behind this project is the 
 constant discussions throughout my life of racial prejudice in the relationship between
-the African-American population and the various police forces througout the country.
+the African-American population and the various police forces throughout the country.
 
 Being a black person myself, I feel the need to shine a light on truth of the situation using data
 analytics. Being a serious issue, I pledge to let the numbers tell the story. I understand that
@@ -15,6 +15,7 @@ Due to the amount of police shootings throughout America being exponentially hig
 to focus only on Washington State from 2015 - present. The process in cleaning this data was simple, mainly due to the Washington Post doing such a great job in keeping their dataset organized for all these years. Having the dataset already configured in a .csv, all I had to do was filter the state table in the spreadsheet to WA (for Washington) and copy and past the respective rows. Upon filtering the data, I noticed there were few rows that had a few missing columns. Because these rows were few, I felt comfortable deleting those entire rows in order to get more complete data. Since race is a major issue in my motivation for this project, I make sure the rows I am deleted had good diversity in race to ensure no bias would occur. Exceptions to this case are cells that have missing location coordinates, as my research points are not concerned with the exact location the shootings took place. Another case are the names, as my research is not concerned with the individual names either. 
 ## Visualization
 Once I processed the data and isolated shooting incidents to only Washington State, I created a simple but clear histogram that divided the police shootings by race. To do this, I made a secondary column next to the `RACE` column in the spreadsheet and created corresponding numbers to each of the races in the dataframe (I put other and unknown races together for a cleaner set). From this visualization, we can see that there are about twice as many white men shot and killed by police than other races.
+
 ![](Visualization.png)
 
 
