@@ -13,7 +13,10 @@ The data I am using was collected from an ongoing database controlled by the Was
 ## Processing Steps
 Due to the amount of police shootings throughout America being exponentially high, I have chosen 
 to focus only on Washington State from 2015 - present. The process in cleaning this data was simple, mainly due to the Washington Post doing such a great job in keeping their dataset organized for all these years. Having the dataset already configured in a .csv, all I had to do was filter the state table in the spreadsheet to WA (for Washington) and copy and past the respective rows. Upon filtering the data, I noticed there were few rows that had a few missing columns. Because these rows were few, I felt comfortable deleting those entire rows in order to get more complete data. Since race is a major issue in my motivation for this project, I make sure the rows I am deleted had good diversity in race to ensure no bias would occur. Exceptions to this case are cells that have missing location coordinates, as my research points are not concerned with the exact location the shootings took place. Another case are the names, as my research is not concerned with the individual names either. 
-## About The Data
+## Visualization
+
+
+## About The Raw Data
 The spreadsheet has many variables that are ambiguous to those who aren't particularly familiar with the data or subject itself. This section is to help the reader understand the spreadsheet better.
 
 `ID`: Shows the chronological order of the police shootings. Data with an ID of 1 means that was the first shooting in the dataset, 2 meaning the second shooting, and so forth.
