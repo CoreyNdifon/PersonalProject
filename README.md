@@ -1,22 +1,29 @@
 ## Motivation
-Welcome to my personal dataset project. For my project I am focusing on the question:
-Who is most affected by police shootings. My motivation behind this project is the 
-constant discussions throughout my life of racial prejudice in the relationship between
-the African-American population and the various police forces throughout the country.
+Welcome to my personal dataset project. For my project I am focusing on the question: Who is most affected by police shootings. My motivation behind this project is the 
+constant discussions throughout my life of racial prejudice in the relationship between the African-American population and the various police forces throughout the country.
 
-Being a black person myself, I feel the need to shine a light on truth of the situation using data
-analytics. Being a serious issue, I pledge to let the numbers tell the story. I understand that
-numbers do not lie, but people can make the numbers tell any story they want to. This being known,
-I feel it is my duty to take on this project from a ethical perspective and attitude, and let the truth speak in the purest way possible. 
+Being a black person myself, I feel the need to shine a light on truth of the situation using data analytics. Being a serious issue, I pledge to let the numbers tell the story. I understand that numbers do not lie, but people can make the numbers tell any story they want to. This being known, I feel it is my duty to take on this project from a ethical perspective and attitude, and let the truth speak in the purest way possible. 
+
 ## Data Sources
 The data I am using was collected from an ongoing database controlled by the Washington Post, who have an ongoing spreadsheet of police shootings throughout all of the United States starting from 2015 to present day. 
+
 ## Processing Steps
-Due to the amount of police shootings throughout America being exponentially high, I have chosen 
-to focus only on Washington State from 2015 - present. The process in cleaning this data was simple, mainly due to the Washington Post doing such a great job in keeping their dataset organized for all these years. Having the dataset already configured in a .csv, all I had to do was filter the state table in the spreadsheet to WA (for Washington) and copy and past the respective rows. Upon filtering the data, I noticed there were few rows that had a few missing columns. Because these rows were few, I felt comfortable deleting those entire rows in order to get more complete data. Since race is a major issue in my motivation for this project, I make sure the rows I am deleted had good diversity in race to ensure no bias would occur. Exceptions to this case are cells that have missing location coordinates, as my research points are not concerned with the exact location the shootings took place. Another case are the names, as my research is not concerned with the individual names either. 
+Due to the database of police shootings in the United States since 2015 was such a big dataset, I decided that I will only focus on Washington State for this project. The data in the spreadsheet given by the Washington Post was very organized and clean already, so luckily I only had to make a few additions to the set in order to start work. A struggle that I had with this datset is that a lot of it is string or boolean based. This meant I had to make some choices in how I was going to interpret them in python. For the boolean data types I just converted the cells to integers using `INT(cell)` to change them into 1s and 0s. For the string based data I decided to group some of the data together before changing them into integers. For example, I 
+
 ## Visualization
 Once I processed the data and isolated shooting incidents to only Washington State, I created a simple but clear histogram that divided the police shootings by race. To do this, I made a secondary column next to the `RACE` column in the spreadsheet and created corresponding numbers to each of the races in the dataframe (I put other and unknown races together for a cleaner set). From this visualization, we can see that there are about twice as many white men shot and killed by police than other races.
 
 ![](Visualization.png)
+
+## Analysis
+After completing my main task of finding the highest number of people who were shot by police in Washington from 2015 - present, I became curious as to how I can use the database's various other variables to look at the data from another perspective. The first plot here is an overall look into how many of the people shot and killed fled and did not flee. 
+
+# put generalized flee plot here
+
+The next plots are a series of flee plots, but separated by race to give some insight on the situations that occured for each race. 
+
+# add flee plots by race here
+
 
 
 ## About The Raw Data
