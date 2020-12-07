@@ -1,8 +1,5 @@
 ## Motivation
-Welcome to my personal dataset project. For my project I am focusing on the question: Who is most affected by police shootings. My motivation behind this project is the 
-constant discussions throughout my life of racial prejudice in the relationship between the African-American population and the various police forces throughout the country.
-
-Being a black person myself, I feel the need to shine a light on truth of the situation using data analytics. Being a serious issue, I pledge to let the numbers tell the story. I understand that numbers do not lie, but people can make the numbers tell any story they want to. This being known, I feel it is my duty to take on this project from a ethical perspective and attitude, and let the truth speak in the purest way possible. 
+Welcome to my personal dataset project. For my project I am focusing on the question: Who does the police kill the most. When this question is asked, people tend to go straight to the racial side of it. My mission for this project is to look at many types of demographics to try and find a trend. 
 
 ## Data Sources
 The data I am using was collected from an ongoing database controlled by the Washington Post, who have an ongoing spreadsheet of police shootings throughout all of the United States starting from 2015 to present day. 
@@ -15,16 +12,33 @@ Once I processed the data and isolated shooting incidents to only Washington Sta
 
 ![](Visualization.png)
 
-## Analysis
 After completing my main task of finding the highest number of people who were shot by police in Washington from 2015 - present, I became curious as to how I can use the database's various other variables to look at the data from another perspective. The first plot here is an overall look into how many of the people shot and killed fled and did not flee. 
 
-# put generalized flee plot here
+![](https://github.com/CoreyNdifon/PersonalProject/blob/master/General%20Flee%20Analysis.PNG)
 
 The next plots are a series of flee plots, but separated by race to give some insight on the situations that occured for each race. 
 
-# add flee plots by race here
+![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20White.PNG) ![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20Black.PNG)
+![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20Asian.PNG) ![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20Hispanic.PNG)
+![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20NA.PNG) ![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20Other.PNG)
 
+Here is a plot that shows the race of each person shot by police by age:
+![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Age%20by%20Race.PNG)
 
+The final one that was interesting to me was that there were fewer people with mental illness shot and killed by police than there was without mental illness. 
+
+![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Mental%20Illness.PNG)
+
+## Analysis
+For my analysis I wanted to do a boxplot for the `AGE` column, but ran into issues as pandas refused to form it, therefore I revisited the Age by Race plot and looked for outliers on that graph. 
+
+![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Age%20by%20Race.PNG)
+
+Since I couldn't use pandas to find some statistical numbers, I went to excel to calculate some statistics to analyze. 
+
+![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Statistics.PNG)
+
+A shocking find was that once a boy turns 4 in Washington, your chances of being shot by police increases a considerable amount. Once you turn 68 in Washington, you chances decrease again. For 64 years in your life, you are at a hightened risk of being shot and killed by police. That in itself should call for some sort of reform. 
 
 ## About The Raw Data
 The spreadsheet has many variables that are ambiguous to those who aren't particularly familiar with the data or subject itself. This section is to help the reader understand the spreadsheet better.
