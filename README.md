@@ -12,15 +12,7 @@ Once I processed the data and isolated shooting incidents to only Washington Sta
 
 ![](Visualization.png)
 
-After completing my main task of finding the highest number of people who were shot by police in Washington from 2015 - present, I became curious as to how I can use the database's various other variables to look at the data from another perspective. The first plot here is an overall look into how many of the people shot and killed fled and did not flee. 
-
-![](https://github.com/CoreyNdifon/PersonalProject/blob/master/General%20Flee%20Analysis.PNG)
-
-The next plots are a series of flee plots, but separated by race to give some insight on the situations that occured for each race. 
-
-![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20White.PNG) ![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20Black.PNG)
-![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20Asian.PNG) ![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20Hispanic.PNG)
-![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20NA.PNG) ![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Flee%20Other.PNG)
+After completing my main task of finding the highest number of people who were shot by police in Washington from 2015 - present, I became curious as to how I can use the database's various other variables to look at the data from another perspective. 
 
 Here is a plot that shows the race of each person shot by police by age:
 ![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Age%20by%20Race.PNG)
