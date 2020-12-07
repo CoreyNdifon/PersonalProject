@@ -27,7 +27,7 @@ Here is a plot that shows the race of each person shot by police by age:
 
 The final one that was interesting to me was that there were fewer people with mental illness shot and killed by police than there was without mental illness. 
 
-![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Mental%20Illness.PNG)
+![](https://github.com/CoreyNdifon/PersonalProject/blob/master/Mental%20Ill..PNG)
 
 ## Analysis
 For my analysis I wanted to do a boxplot for the `AGE` column, but ran into issues as pandas refused to form it, therefore I revisited the Age by Race plot and looked for outliers on that graph. 
